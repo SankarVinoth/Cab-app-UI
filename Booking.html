@@ -6,11 +6,23 @@
 </head>
 <body>
 <h1>Booking</h1>
-<form>
+<form method="POST"  action="Thankyou.html">
+<input type="hidden" name="ip"  id="1.1.1.1">
 <label>Journey Date</label>
 <input type="date" name=" Journey Date"  id="Journey Date" placeholder="Enter date" min="2021-04-19" max="2021-05-23" ><br/>
 <label>Timing</label>
 <input type="time" name=" Journey Time"  id="Journey Time" placeholder="Enter time" ><br/>
+gst:<input type="number" name="gst" value="10" readonly><br/>
+<input type="checkbox" name="seniorcitizen" value="Y" > seniorcitizen <br/>
+<label>gender</label>
+<input type="radio" name="gender" value="M" > Male <br/>
+<input type="radio" name="gender" value="F" > Female <br/>
+<h4>Instructions</h4>
+<u1>
+ <li> Must Wear masks</li>li>
+ <li> Should not eat in the cab</li>
+</u1>
+<br/>
 <button>Submit</button>
 
 </form>
